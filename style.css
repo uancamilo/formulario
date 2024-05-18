@@ -10,8 +10,26 @@ html {
 
 }
 
+legend {
+    text-align: center;
+}
+
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+label{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0; 
+}
+
+input {
+    padding: 5px;
+}
+
+textarea{
+    margin-bottom: 20px;
 }
